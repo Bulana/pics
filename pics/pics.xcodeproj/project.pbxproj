@@ -13,6 +13,8 @@
 		7FD9F67A226E0BAF002DCD3C /* pics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FD9F678226E0BAF002DCD3C /* pics.xcdatamodeld */; };
 		7FD9F67C226E0BBA002DCD3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD9F67B226E0BBA002DCD3C /* Assets.xcassets */; };
 		7FD9F67F226E0BBA002DCD3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD9F67D226E0BBA002DCD3C /* LaunchScreen.storyboard */; };
+		7FD9F688226E24E7002DCD3C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD9F686226E24E7002DCD3C /* TableViewCell.swift */; };
+		7FD9F689226E24E7002DCD3C /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD9F687226E24E7002DCD3C /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7FD9F67B226E0BBA002DCD3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FD9F67E226E0BBA002DCD3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FD9F680226E0BBA002DCD3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD9F686226E24E7002DCD3C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		7FD9F687226E24E7002DCD3C /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				7FD9F675226E0BAF002DCD3C /* Main.storyboard */,
 				7FD9F67B226E0BBA002DCD3C /* Assets.xcassets */,
 				7FD9F67D226E0BBA002DCD3C /* LaunchScreen.storyboard */,
+				7FD9F686226E24E7002DCD3C /* TableViewCell.swift */,
+				7FD9F687226E24E7002DCD3C /* TableViewCell.xib */,
 				7FD9F680226E0BBA002DCD3C /* Info.plist */,
 				7FD9F678226E0BAF002DCD3C /* pics.xcdatamodeld */,
 			);
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FD9F67F226E0BBA002DCD3C /* LaunchScreen.storyboard in Resources */,
+				7FD9F689226E24E7002DCD3C /* TableViewCell.xib in Resources */,
 				7FD9F67C226E0BBA002DCD3C /* Assets.xcassets in Resources */,
 				7FD9F677226E0BAF002DCD3C /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FD9F674226E0BAF002DCD3C /* ViewController.swift in Sources */,
+				7FD9F688226E24E7002DCD3C /* TableViewCell.swift in Sources */,
 				7FD9F672226E0BAF002DCD3C /* AppDelegate.swift in Sources */,
 				7FD9F67A226E0BAF002DCD3C /* pics.xcdatamodeld in Sources */,
 			);
