@@ -11,7 +11,13 @@ import UIKit
 class TableViewCell: UITableViewCell {
 
     
-    @IBOutlet var unsplashImage: UIImageView!
+    @IBOutlet weak var user: UILabel!
+    @IBOutlet weak var biography: UILabel!
+    @IBOutlet var unsplashImage: UIImageView!{
+        didSet {
+            unsplashImage.contentMode = .scaleAspectFit
+        }
+    }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
