@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FA572172277631C001CE666 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA572162277631C001CE666 /* BorderButton.swift */; };
 		7FD9F672226E0BAF002DCD3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD9F671226E0BAF002DCD3C /* AppDelegate.swift */; };
 		7FD9F674226E0BAF002DCD3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD9F673226E0BAF002DCD3C /* ViewController.swift */; };
 		7FD9F677226E0BAF002DCD3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD9F675226E0BAF002DCD3C /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FA572162277631C001CE666 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		7FD9F66E226E0BAF002DCD3C /* pics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD9F671226E0BAF002DCD3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FD9F673226E0BAF002DCD3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FA57215227762B8001CE666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7FA572162277631C001CE666 /* BorderButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7FD9F665226E0BAE002DCD3C = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		7FD9F670226E0BAF002DCD3C /* pics */ = {
 			isa = PBXGroup;
 			children = (
+				7FA57215227762B8001CE666 /* View */,
 				7FD9F671226E0BAF002DCD3C /* AppDelegate.swift */,
 				7FD9F673226E0BAF002DCD3C /* ViewController.swift */,
 				7FD9F675226E0BAF002DCD3C /* Main.storyboard */,
@@ -149,6 +160,7 @@
 				7FD9F674226E0BAF002DCD3C /* ViewController.swift in Sources */,
 				7FD9F688226E24E7002DCD3C /* TableViewCell.swift in Sources */,
 				7FD9F672226E0BAF002DCD3C /* AppDelegate.swift in Sources */,
+				7FA572172277631C001CE666 /* BorderButton.swift in Sources */,
 				7FD9F67A226E0BAF002DCD3C /* pics.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

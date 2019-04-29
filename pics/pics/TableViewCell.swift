@@ -18,6 +18,18 @@ class TableViewCell: UITableViewCell {
             unsplashImage.contentMode = .scaleAspectFit
         }
     }
+    
+    @IBOutlet weak var profileImage: UIImageView!{
+        didSet {
+            profileImage.contentMode = .scaleAspectFill
+            profileImage.layer.borderWidth = 1
+            profileImage.layer.masksToBounds = false
+            profileImage.layer.borderColor = UIColor.black.cgColor
+            profileImage.layer.cornerRadius = profileImage.frame.height/2
+            profileImage.clipsToBounds = true
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

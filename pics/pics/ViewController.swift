@@ -22,7 +22,7 @@ struct Urls: Codable {
     let small: String
 }
 
-class TableViewController: UITableViewController {
+class UsplashImagesViewController: UITableViewController {
 
     let imageCache = NSCache<NSString, UIImage>()
     var unsplashDataModel = [Pics]()
@@ -33,7 +33,7 @@ class TableViewController: UITableViewController {
         let nib = UINib(nibName: "TableViewCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "custom")
         
-        let jsonUrlString = "https://api.unsplash.com/photos/?client_id=a27d182e45416d7caf0c7a616b6bc8851e008a78d3795cb4f2ac174f70514139&per_page=100"
+        let jsonUrlString = "https://api.unsplash.com/photos/?client_id=a27d182e45416d7caf0c7a616b6bc8851e008a78d3795cb4f2ac174f70514139&per_page=300"
         guard let url = URL(string: jsonUrlString) else
         { return }
         
