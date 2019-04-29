@@ -8,7 +8,7 @@
 
 import UIKit
 
-//modal object
+//Modal structures
 struct Pics: Codable {
     let id: String
     let urls: Urls
@@ -17,6 +17,7 @@ struct Pics: Codable {
 struct User: Codable {
     let name: String
     var bio: String?
+    let profile_image: String
 }
 struct Urls: Codable {
     let small: String
@@ -49,15 +50,18 @@ class UsplashImagesViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //creating cell from nib
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "custom") as! TableViewCell
         cell.user.text = self.unsplashDataModel[indexPath.row].user.name
-        
+       
+        //setting the biography string to the biography label
         if let bioData = self.unsplashDataModel[indexPath.row].user.bio {
             cell.biography.text = bioData
         }
         
+        //setting the imageUrl with the json url string
         let imageUrl = self.unsplashDataModel[indexPath.row].urls.small
-        
+        //creating the cache dictionary
         if let imageFromCache = imageCache.object(forKey: NSString(string: imageUrl)) {
             cell.unsplashImage.image = imageFromCache
         }else {
